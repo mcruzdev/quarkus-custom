@@ -9,7 +9,7 @@ import io.quarkus.deployment.annotations.Produce;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.pkg.builditem.ArtifactResultBuildItem;
 
-class CustomProcessor {
+class SimpleCustomProcessor {
 
     private static final String FEATURE = "custom";
 
