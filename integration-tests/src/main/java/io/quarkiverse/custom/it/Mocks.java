@@ -4,6 +4,6 @@ import io.quarkiverse.custom.runtime.GETMock;
 
 public interface Mocks {
 
-    @GETMock(path = "/users", status = 200, responseBody = "[]")
+    @GETMock(path = "/cars", status = 400, responseBody = "{}")
     void mockUsers();
 }
